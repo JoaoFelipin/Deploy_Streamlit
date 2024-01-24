@@ -22,3 +22,5 @@ if data:
 
     st.markdown('Insurance Cost Prediction')
     st.write(df_output)
+
+    st.download_button(label='Download Csv',data=df_output.to_csv(index=False),file_name='Predictions.csv')
