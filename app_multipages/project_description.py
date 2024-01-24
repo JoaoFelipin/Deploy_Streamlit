@@ -13,4 +13,4 @@ st.write('\n\n')
 
 st.image('img/health_insurance_img.jpg')
 
-st.success('Please go to the other page to make predictions')
+st.success('Please go to the next page to make predictions')
